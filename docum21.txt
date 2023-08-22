@@ -1,0 +1,205 @@
+Samuel Escobar Hernandez
+Hoy 7 de agosto nos instalamos y conocimos un poco sobre los proyectos en los cuales se van a trabajar
+a lo largo de estos dias y hoy trabajamos disenando la landing page de una caferia y en la cual avanzamos en algunas vistas como
+lo son registrate, contacto y una landing page el cual estuvimos revisando el tipo de tipografia colores y disenos en el cual fuimos 
+avanzando y disenando a lo largo del dia y estamos comenzando el apartado de menu todo esto en la plataforma de figma.
+ 07/08/23 
+
+
+Samuel Escobar Hernandez
+
+Hoy 08 de agosto en el segundo dia de estancia nos toco seguir trabajando en el diseño de pagina web de una cafetria 
+en lo cual pudimos avanzar algunas vistas mas terminar unos prototipos y asi mismo ir viendo la mejores opciones para el diseño psrs despues programar tambien en un rato del dia nos toco darle 
+mantenimiento a una computadoras y tuvimos una reunion donde se hablo de lo que se requiere sobre el proyecto y co la terminacion de mas vistas hemos concluido el dia de hoy,
+
+ 08/0823
+@samuelrobot1
+
+
+
+ESTANCIA21
+
+Guineo01ir
+
+Samuel Escobar Hernandez 09/08/23
+Hoy 09 de agosto estuvimos terminando el diseño de las landing pages y asi mismo comenzamos elaborando los codigos y creamos nuestra cuenta de git hub donde empezaremos
+elebaorar igual seguimos detallando cada pagina y vamos editando conforme creemos que va requiriento y los codigos que estamos laborando se estan creando con la aplicacion
+de react y siguiendo la estructura de atomic desing en el cual el dia de hoy encontramos y analizamos cuales seran nuestros componenetes y ya por ultimo solo esperamos 
+el repositorio para subir nuestros avances y clonar el codigo y ahi mismo trabajar los dos juntos con el codigo de la cafetria peko.
+
+
+Samuel Escobar Hernandez 10/08/23
+Hoy 10 de agosto diseñamos nuevos protipos y por fin pudimos enseñarlo al lic y quedamos en que nos mandaria los rendes 
+para asi poder avanzar en definir el prototipo y asi mismo comenzar a hacer codigos para poder dejar hecha un protipo de la landinpage estuvims creando
+nuevas funcines tratar de hacer dinamica la pagina y asi mismo comenzar a hacer el esqueleto de la pagina que mañana o la otra semana iniciariamos.
+
+
+
+
+
+
+
+
+PS C:\Users\ROBOT\Desktop\PEKOCAFE> ls
+PS C:\Users\ROBOT\Desktop\PEKOCAFE> git clone https://github.com/ElPatitoAzul/landing_page_cafeteria_peko.git
+Cloning into 'landing_page_cafeteria_peko'...
+remote: Repository not found.
+fatal: repository 'https://github.com/ElPatitoAzul/landing_page_cafeteria_peko.git/' not found
+PS C:\Users\ROBOT\Desktop\PEKOCAFE> 
+PS C:\Users\ROBOT\Desktop\PEKOCAFE> ls
+PS C:\Users\ROBOT\Desktop\PEKOCAFE> git branch  
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\ROBOT\Desktop\PEKOCAFE> cd .\landing_page_cafeteria_peko\
+PS C:\Users\ROBOT\Desktop\PEKOCAFE\landing_page_cafeteria_peko> git branch
+* main
+PS C:\Users\ROBOT\Desktop\PEKOCAFE\landing_page_cafeteria_peko> git pull
+remote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (18/18), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 13 (delta 8), reused 10 (delta 6), pack-reused 0
+From https://github.com/ElPatitoAzul/landing_page_cafeteria_peko
+ * [new branch]      cristian   -> origin/cristian
+Updating d626d58..ac0b644
+ src/componentes/moleculas/Footer.jsx | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+* main
+PS C:\Users\ROBOT\Desktop\PEKOCAFE\landing_page_cafeteria_peko> git checkout cristian
+branch 'cristian' set up to track 'origin/cristian'.
+* cristian
+  main
+PS C:\Users\ROBOT\Desktop\PEKOCAFE\landing_page_cafeteria_peko> git checkout main    
+PS C:\Users\ROBOT\Desktop\PEKOCAFE\landing_page_cafeteria_peko> git checkout -b samuel
+Switched to a new branch 'samuel'
+  cristian
+  main
+* samuel
+PS C:\Users\ROBOT\Desktop\PEKOCAFE\landing_page_cafeteria_peko> git add . 
+PS C:\Users\ROBOT\Desktop\PEKOCAFE\landing_page_cafeteria_peko> git commit -m 'creacion de rama samuel' 
+[samuel 1349469] creacion de rama samuel
+ 1 file changed, 1 insertion(+)
+PS C:\Users\ROBOT\Desktop\PEKOCAFE\landing_page_cafeteria_peko> git push -u origin samuel 
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 529 bytes | 529.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'samuel' on GitHub by visiting:
+remote:      https://github.com/ElPatitoAzul/landing_page_cafeteria_peko/pull/new/samuel
+remote:
+To https://github.com/ElPatitoAzul/landing_page_cafeteria_peko.git
+ * [new branch]      samuel -> samuel
+PS C:\Users\ROBOT\Desktop\PEKOCAFE\landing_page_cafeteria_peko> npm run dev
+
+> proyecto@0.0.0 dev
+> vite
+
+"vite" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+added 338 packages, and audited 339 packages in 6s
+
+90 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\ROBOT\Desktop\PEKOCAFE\landing_page_cafeteria_peko> npm run dev
+
+> proyecto@0.0.0 dev
+> vite
+
+
+  VITE v4.4.4  ready in 476 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h to show help
+12:59:12 [vite] hmr update /src/componentes/atomos/Header.jsx
+12:59:12 [vite] hmr update /src/componentes/atomos/Header.jsx (x2)
+12:59:16 [vite] hmr update /src/componentes/atomos/Header.jsx (x3)
+
+
+
+Hoy 11 de agosto comenzamos a dejar listo todo el protipo que hemos hecho sobre la landing page asi mismo comenzamos a implementar codigo 
+para ir armando nuestro maquetado ya que como no sabemos cual va ser el diseño que va quedar solo estamos haciendo lo basico como son
+el header el footer y unos ejemplos esperemos el dia lunes podamos tener el prototipo y aceptado para poder crearlo y progamarlo esto
+fue lo que se hizo toda la semana.
+
+
+
+
+Samuel Alberto Escobar Hernandez 
+
+Horarios 
+Lunes a viernes de 8:00 am a 6:00 pm 
+
+Inicio 
+07/08/23
+
+Comenzamos diseñando en figma unos prototipos de una landing page sobre la cafetria PEKO 
+en el cual pudimos hacer como 4 modelos de protipos en la primera semana del cual el dia viernes 
+eligimos uno de ellos para poder pasarlo a codigo en el cual solo llevamos un header y un footer
+
+LENGUAJES 
+
+Html 
+css
+javascript 
+Figma
+react "siguiendo la estructura de atomic desing"
+
+ROL
+
+FRONENT 
+
+
+Hoy 14 de agosto estuvimos trabajando en la laboracion del codigo en el cual clonamos el codigo de cristian y empezamos a trabajar 
+sobre ello y asi ir avanzando en crear el header footer y una parte del body y asi mismo subimos un comit el dia de hoy.
+
+
+
+
+samuel.programacion@gruporyc.com.mx
+
+Samuel Alberto Escobar Hernandez 
+
+cafeteria peko
+
+
+https://www.figma.com/file/61HA4T6Scx9M6UoLhdoMwu/Cafeteria---Landing-Page?node-id=260%3A1642&mode=dev
+
+
+
+
+Hoy 15 de agosto seguimos avanzando con la terminacion del codigo 
+del modelo ya elegido en cual ya subimos dos pull y vamos avanzando una gran parte
+como lo son el header el footer y una parte del conocemos y el formulario de registro y pudimos
+realizar un carrusel y terminamos subiendo un comit.
+
+
+
+
+Hoy 17 de aosto seguimos avazando en la programacion de la landing page 
+en el cual estuvimos haciendo resposnivo algunas partes del diseño 
+analizando y tratando de mejorar algunas cosas para asi poder tener 
+un buen trabajo.
+
+hoy 18 de agosto terminamos de hacer nuestro proyecto ya solo falta que nos revisen y que nos dia que mas ponerle
+o quitarle asi mismo solo falta aprobacion del lic y del profe jose luis estaremos detallando unas cosas minima 
+y viendo algunas cosas que agregarle 
+
+
+
+https://www.figma.com/proto/61HA4T6Scx9M6UoLhdoMwu/Cafeteria---Landing-Page?node-id=260-1564&scaling=scale-down&page-id=0%3A1&starting-point-node-id=15%3A353
+
+
+
+
+
+https://github.com/CristianRyC/cafesito.git
+
+
+HOY 21 DE AGOSTO eterminamos el proyecto y dejamos algunos detalles ya resuelto y corregimos cada cosa que hacia falta
+tambien estabamos dand algunos detalles algunas cosas ya quedo concectado a una base de datos 
+pero hoy se terino el proyecto y asi mismo solo esperamos presentarlo para que nos den el punto bueno.
